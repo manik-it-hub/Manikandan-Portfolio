@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail, Phone } from "lucide-react";
+import profileImage from "@/assets/profile.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -16,6 +17,20 @@ const Hero = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
       
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in-up">
+        {/* Profile Image */}
+        <div className="mb-8">
+          <div className="relative inline-block">
+            <div className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-primary/50 shadow-2xl shadow-primary/20 mx-auto">
+              <img 
+                src={profileImage} 
+                alt="Manikandan S" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent pointer-events-none" />
+          </div>
+        </div>
+
         <div className="mb-6">
           <span className="inline-block text-primary text-sm font-semibold tracking-wider uppercase mb-4">
             Full Stack Developer & UI/UX Designer

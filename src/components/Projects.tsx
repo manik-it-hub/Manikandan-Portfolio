@@ -82,7 +82,7 @@ const Projects = () => {
                   </p>
 
                   <div className="mb-4">
-                    <Badge className="bg-gradient-to-r from-primary/20 to-purple-500/20 text-primary hover:from-primary/30 hover:to-purple-500/30 text-xs border-0">
+                    <Badge className="bg-gradient-to-r from-primary to-purple-500 text-white hover:from-primary/90 hover:to-purple-500/90 text-xs border-0">
                       {project.highlight}
                     </Badge>
                   </div>
