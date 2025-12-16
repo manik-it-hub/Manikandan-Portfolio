@@ -53,7 +53,7 @@ const Hero = () => {
 
         <div className="flex gap-4 justify-center">
           <a 
-            href="https://github.com/manikandan" 
+            href="https://github.com/manik-it-hub" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full glass-effect hover:bg-primary/20 hover:scale-110 transition-all duration-300 group"
@@ -62,7 +62,7 @@ const Hero = () => {
           </a>
           
           <a 
-            href="https://linkedin.com/in/manikandan" 
+            href="https://www.linkedin.com/in/maniks16" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full glass-effect hover:bg-primary/20 hover:scale-110 transition-all duration-300 group"
