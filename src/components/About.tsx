@@ -24,7 +24,7 @@ const About = () => {
                   <div>
                     <p className="font-medium text-foreground">B.Tech in Information Technology</p>
                     <p className="text-sm text-muted-foreground">AVC College of Engineering</p>
-                    <p className="text-sm text-primary">2022 - 2026 | CGPA: 8.0</p>
+                    <p className="text-sm text-primary">2022 - 2026 | CGPA: 8.04</p>
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Higher Secondary (HSC)</p>
