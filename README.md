@@ -2,7 +2,7 @@
 
 This repository contains my personal portfolio website, showcasing my projects, skills, and experience in web development.
 
-Live website: https://manik-portfolio.vercel.app
+Live website: [https://manik-portfolio.vercel.app](https://maniks-portfolio.vercel.app/)
 
 ---
 
